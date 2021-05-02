@@ -23,6 +23,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 /* header*/
 
 header {
@@ -33,9 +34,8 @@ header {
     align-items: center;
 }
 header > a:nth-child(2) {
-    font-weight: normal;
+    font-weight: bold;
     color: blue;
-    
 }
 header a {
     padding: 20px;
@@ -50,12 +50,18 @@ header li {
     flex-basis: 50%;
     text-align: center;
     padding-bottom: 20px;
-    border-bottom: solid 3px lightgray;
+    border-bottom: 3px solid lightgray;
 }
 header li:hover {
-    border-bottom: solid 3px blue;
+    border-bottom: 3px solid blue;
+}
+header li:hover a {
+    color: blue;
 }
 a {
     text-decoration: none;
     color: black;
 }
+
+/*main*/
+
